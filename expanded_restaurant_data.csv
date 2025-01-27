@@ -1,0 +1,96 @@
+Restaurant Name,Cuisines,Latitude,Longitude,No. of Cuisines Offered,Rating,Aggregate Rating,City,Country Code,Address,Restaurant ID,Rating Text
+Saffron Sky,Hot Chocolate,27.770975346890427,85.4617061630246,1,3.1,4.4,Kathmandu,1,"39, 39 Road, Riverfront",1160,Very Good
+Monsoon Feast,"Snacks, Chinese, Cake",27.69473454257189,85.4676375236374,3,3.3,3.8,Kathmandu,1,"8, 8 Avenue, Park",7796,Good
+Yakitori Zen,"Chinese, Italian",27.7123513595767,85.27491283396218,2,3.7,4.1,Kathmandu,1,"54, 54 Avenue, Shopping Mall",6906,Average
+Himalayan Delight,"Mexican, Fast Food",27.679124869801285,85.39162588723946,2,4.7,4.0,Kathmandu,1,"45, 45 Street, Park",3655,Good
+Himalayan Gourmet,"Steak, Nepali, Chili",27.669053694961757,85.48128053989471,3,3.7,3.7,Kathmandu,1,"72, 72 Lane, Riverfront",5565,Average
+Everest Eats,"Fries, Nepali, Cake, Fast Food",27.537864947789625,85.4116867379943,4,3.7,4.0,Kathmandu,1,"65, 65 Road, Shopping Mall",3929,Very Good
+Lotus Lounge,Indian,27.77925649160277,85.20709147431552,1,4.4,3.6,Kathmandu,1,"39, 39 Avenue, Nearby Temple",7570,Excellent
+Yak & Yeti,Snacks,27.594573293313307,85.22265016909283,1,3.6,4.2,Kathmandu,1,"42, 42 Street, Shopping Mall",8752,Average
+Kathmandu Kitchen,"Burger, Chips",27.688693499027217,85.3979181194627,2,4.0,4.7,Kathmandu,1,"24, 24 Lane, Nearby Temple",3456,Average
+Lotus Blossom,"Italian, Sushi, Sel Roti",27.53863075662843,85.3036051726764,4,3.3,4.5,Kathmandu,1,"41, 41 Avenue, Nearby Temple",8264,Very Good
+Koi Fusion,"Chocolate Cake, Chips, Cake, Takeout",27.5939346808269,85.33707524596701,4,4.1,4.0,Kathmandu,1,"15, 15 Lane, Nearby Temple",4295,Very Good
+Taj Tiffin,"Biryani, Chips",27.727838350649748,85.34022674608543,2,3.8,4.7,Kathmandu,1,"97, 97 Avenue, Park",6823,Excellent
+Bamboo Bites,"Donuts, Chips, Macaroni and Cheese",27.76836711269675,85.32646816946468,3,3.7,4.7,Kathmandu,1,"6, 6 Avenue, Park",3971,Very Good
+Potala Palace,"Chips, Popcorn",27.57945889084269,85.44829040731605,2,4.3,4.7,Kathmandu,1,"20, 20 Lane, Shopping Mall",5990,Excellent
+Gorkha Grill,Ice Cream,27.71630114322785,85.25673589401666,1,3.2,4.7,Kathmandu,1,"29, 29 Road, Shopping Mall",4514,Average
+Pagoda Plates,"Thukpa,Frozen Meal",27.554566150347647,85.22555331740324,1,4.1,4.1,Kathmandu,1,"87, 87 Street, Riverfront",8513,Very Good
+Sherpa Supper,"Pizza,Momo",27.793046095670068,85.26693889728305,2,3.3,4.8,Kathmandu,1,"37, 37 Street, Nearby Temple",4208,Excellent
+Temple Tastes,"Tacos, Grilled Cheese, Snacks, Sel Roti",27.60137176439009,85.40768687912413,4,3.6,4.5,Kathmandu,1,"17, 17 Road, Shopping Mall",5896,Excellent
+Nepalese Nocturne,"Noodles, Donuts, Fries",27.74568091326739,85.3052884624425,3,3.6,3.8,Kathmandu,1,"12, 12 Road, Shopping Mall",4926,Excellent
+Zenith Zest,"Chinese, Steak, Donuts, Japanese",27.55831610869592,85.32746345825912,4,4.2,3.9,Kathmandu,1,"54, 54 Road, Park",9589,Average
+Gurkha Gastronomy,Chinese,27.74230999635068,85.32878232720918,1,3.1,3.5,Kathmandu,1,"72, 72 Street, Park",7939,Very Good
+Kathmandu Kitchens,"Sel Roti, Stews",27.56807722016862,85.25041317832303,4,3.8,4.9,Kathmandu,1,"67, 67 Road, Park",8522,Excellent
+Dragon's Den,"Sushi, Macaroni and Cheese, Frozen Meals",27.56534203846416,85.23976344377297,3,3.8,3.8,Kathmandu,1,"98, 98 Lane, Park",2042,Good
+Gurkha Grub,"Italian,Mexican, Burger",27.737026916680243,85.32548775296996,4,4.3,4.1,Kathmandu,1,"42, 42 Avenue, Riverfront",5285,Good
+Saffron Serenade,"Macaroni and Cheese, Takeout, Frozen Meals, Chinese",27.6548853952659,85.4059815694806,4,4.1,4.5,Kathmandu,1,"84, 84 Road, Park",1874,Average
+Buddha Bowl,"Naan, Macaroni and Cheese, Fries",27.7440385026541,85.35680138274734,4,3.8,4.2,Kathmandu,1,"12, 12 Avenue, Riverfront",9713,Good
+Summit Spice,"Frozen Meals, Stews, Takeout",27.53389708579005,85.3702087197168,3,3.8,4.5,Kathmandu,1,"72, 72 Road, Park",9954,Average
+Mountain Munch,Cookies,27.781726344953565,85.49303943240822,1,4.2,4.0,Kathmandu,1,"67, 67 Lane, Shopping Mall",5216,Very Good
+Summit Sizzle,"Thukpa,Fries",27.594954888552564,85.22287821694943,1,3.5,3.7,Kathmandu,1,"56, 56 Lane, Park",5352,Very Good
+Momo Magic,"Macaroni and Cheese, Frozen Meals, Steak",27.575992172999847,85.4493553891695,3,4.5,4.9,Kathmandu,1,"44, 44 Street, Nearby Temple",7810,Very Good
+Yeti Eats,Soda,27.722902537201904,85.3740804436134,1,4.3,3.8,Kathmandu,1,"5, 5 Lane, Riverfront",6100,Very Good
+Everest Flavors,Sel Roti,27.691493045317568,90.381115423709,1,5.0,4.9,Kathmandu,1,"59, 59 Lane, Nearby Temple",1059,Average
+Taste of Nepal,"Soda, Thai",27.65303882093613,85.28492912222274,2,4.2,3.8,Kathmandu,1,"38, 38 Street, Nearby Temple",6403,Very Good
+Serenity Spice,"Chinese, Steak, Sel Roti, Soup",27.649211899302472,85.27886327223506,4,4.5,4.1,Kathmandu,1,"3, 3 Lane, Park",2494,Good
+Moonlight Momo,Thukpa,27.72099715508905,85.30119706162809,1,4.1,4.5,Kathmandu,1,"65, 65 Avenue, Riverfront",9968,Average
+Monk's Meal,"Ice Cream, Nachos, Chips,Cake",27.75241533665044,85.34046694595017,3,4.8,3.6,Kathmandu,1,"34, 34 Street, Shopping Mall",8835,Average
+Himalayan Harvest,"Italian, Chips, Chocolate Cake, Sushi",27.51761075148277,85.39687585271349,4,3.7,3.5,Kathmandu,1,"53, 53 Avenue, Riverfront",8167,Good
+Spice Summit,"Indian, Noodles, Fast Food",27.57300010674038,85.49046849952234,3,4.8,4.0,Kathmandu,1,"37, 37 Avenue, Riverfront",8002,Average
+Nepal Spice,"Sel Roti, Chinese",27.722741604452903,85.23512273835519,2,3.7,4.0,Kathmandu,1,"55, 55 Road, Riverfront",2449,Very Good
+Gorkha Gastronomy,"Soup, Steak, Sel Roti, Mexican",27.688789205875537,85.21157323685553,4,3.6,3.9,Kathmandu,1,"91, 91 Avenue, Riverfront",9572,Good
+Zen Fusion,"Tacos, Mexican,Thukpa",27.77161187260124,85.43548650832543,2,3.3,4.4,Kathmandu,1,"67, 67 Road, Park",3688,Very Good
+Monsoon Morsels,Cake,27.53102358875418,85.4929478123921,1,3.1,4.0,Kathmandu,1,"16, 16 Lane, Riverfront",3832,Average
+Himalayan Bites,"Pasta, Hot Chocolate, Cake, Snacks",27.57782424222688,85.45597013897843,4,4.2,3.8,Kathmandu,1,"27, 27 Road, Shopping Mall",1856,Average
+Himalayan Haute,Italian,27.70660225451406,85.43052283411862,1,3.7,3.6,Kathmandu,1,"10, 10 Street, Park",6443,Excellent
+Yak & Orchid,"Snacks, Ice Cream",27.610664881897183,85.25842912262667,2,4.8,4.6,Kathmandu,1,"5, 5 Road, Park",8752,Excellent
+Himalayan Gourmet,"Nepali, Nepalese, Japanese",27.683392957216792,85.28087687224595,3,4.7,3.8,Kathmandu,1,"171, Bagbazar Street, Sagarmatha National Park",11269,Very Good
+Himalayan Harvest,"Nepali, Nepalese, Japanese",27.774655842546956,85.43253349809491,3,4.1,4.6,Kathmandu,1,"185, Chabahil Chowk, Muktinath Temple",14101,Average
+Buddha Bowl,"Nepali, Nepalese, Mexican, Italian",27.73977012924064,85.23828070913,4,4.5,4.4,Kathmandu,1,"128, Dallu Marg, Janakpur Dham",10573,Very Good
+Taj Tiffin,"Nepali, American",27.501495971150497,85.25390033175134,2,3.1,4.7,Kathmandu,1,"191, Imadol Lane, Tansen Hill Station",19314,Average
+Rasilo chocolate,"Nepali, Nepalese,chocolate",27.673280596765665,85.46371677787384,2,3.9,4.0,Kathmandu,1,"120, Bouddha Street, Kathmandu Durbar Square",19198,Excellent
+Koi Fusion,"Nepali, Japanese, Chinese, American",27.679973511647816,85.27702789550919,4,4.8,3.6,Kathmandu,1,"166, Chabahil Chowk, Chandragiri Hills",16726,Good
+Himalayan Gourmet,"Nepali, Chinese, Italian, Nepalese,Thukpa",27.606159803656343,85.3848313184925,4,4.9,4.5,Kathmandu,1,"105, Thapathali Road, Rara Lake",10843,Very Good
+Himalayan Harvest,"Nepali, American, Chinese",27.787265383871755,85.31183814136004,3,3.9,3.6,Kathmandu,1,"116, Budhanilkantha Road, Annapurna Base Camp",19548,Good
+Nepal Spice,"Nepali, Japanese, Nepalese",27.614576755889853,85.29636732096264,3,3.0,4.3,Kathmandu,1,"180, Koteshwor Bypass, Gokarna Forest Resort",14596,Average
+Monsoon Feast,"Nepali, Chinese, Japanese",27.502775423367314,85.2913239996318,3,4.7,3.6,Kathmandu,1,"166, Gwarko Street, Shivapuri National Park",18214,Average
+Summit Sizzle,"Nepali, American, Nepalese, Mexican",27.740097818001015,85.36557593240889,4,3.4,4.3,Kathmandu,1,"161, Chabahil Chowk, Daman Hill Station",10390,Very Good
+Nepal Spice,"Nepali, Mexican, Chinese,Thukpa",27.758400350405257,85.47599976079941,3,4.5,4.3,Kathmandu,1,"163, Kantipath Lane, Godavari Botanical Garden",14932,Good
+Kathmandu Kitchen,"Nepali, Japanese, Chinese",27.574536097204057,85.48600756466817,3,3.5,4.0,Kathmandu,1,"147, Baneshwor Height, Budhanilkantha Temple",15872,Excellent
+Pizza King,"pizza,Nepali, Chinese",27.521995384804814,85.42325098439508,2,3.0,3.5,Kathmandu,1,"144, Gairidhara Road, Jomsom Bazaar",10730,Excellent
+Everest Flavors,"Nepali, Italian,cake",27.52544549897599,85.44951788834987,2,5.0,3.7,Kathmandu,1,"196, Bafal Marg, Tansen Hill Station",11439,Average
+Nepal Spice,"Nepali, American, Chinese, Mexican",27.65522852070016,85.33897492885961,4,4.6,4.6,Kathmandu,1,"196, Lazimpat Lane, Tansen Hill Station",16831,Very Good
+Yakitori Zen,"Nepali, Japanese, Nepalese",27.72732103352477,85.2518390136497,3,3.8,4.3,Kathmandu,1,"180, Kantipath Lane, Dhulikhel Hill Station",19930,Very Good
+Spice Summit,"Nepali, Italian, Chinese",27.7945758802305,85.38290641577379,3,4.9,3.9,Kathmandu,1,"158, Bafal Marg, Davis Falls",14129,Average
+Lotus Lounge,"Nepali, Nepalese, Italian",27.639351075461466,85.25499709375143,3,3.6,4.1,Kathmandu,1,"129, Satdobato Marg, Marpha Village",10485,Very Good
+Taj Tiffin,"Nepali, Italian, Chinese, Japanese",27.539856371859383,85.31724906731233,4,4.3,4.5,Kathmandu,1,"194, Durbar Marg, Patan Durbar Square",19150,Very Good
+Moonlight Momo,"Nepali, Nepalese",27.551351757213915,85.22107211226286,2,3.3,4.0,Kathmandu,1,"113, Kumaripati Lane, Pokhara International Mountain Museum",15206,Very Good
+Monk's Meal,"Nepali, American",27.703434903763092,85.2702783958489,2,4.9,3.9,Kathmandu,1,"193, Baneshwor Height, Nagarkot Viewpoint",13938,Average
+Potala Palace,"Nepali, Italian, American",27.57440559058366,85.34532409353335,3,4.4,4.2,Kathmandu,1,"143, Gairidhara Road, Bhaleshwor Mahadev Temple",12706,Good
+Zen Fusion,"Nepali, Italian, Japanese",27.552468120644214,85.3831748482361,3,5.0,3.9,Kathmandu,1,"174, Gaushala Road, Manang Mountain Village",19045,Excellent
+Spice Summit,"Nepali, Italian",27.755549480471462,85.48199128330107,2,4.5,3.9,Kathmandu,1,"127, Satdobato Marg, Muktinath Temple",14300,Very Good
+Mountain Munch,"Nepali, Italian",27.799237752569905,85.41283107569886,2,5.0,4.6,Kathmandu,1,"106, Bhaisepati Lane, Ilam Tea Gardens",13598,Excellent
+Yakitori Zen,"Nepali, Chinese, Mexican",27.52095370441625,85.44106725243341,3,4.9,4.7,Kathmandu,1,"163, Kumaripati Lane, Garden of Dreams",10895,Excellent
+Saffron Sky,"Nepali, Mexican",27.50829828896089,85.2538606551815,2,4.3,3.6,Kathmandu,1,"193, Bagbazar Street, Gokyo Lakes",12755,Average
+Bamboo Bites,"Nepali, Japanese",27.57440365812679,85.40972209297209,2,3.3,3.8,Kathmandu,1,"131, Gwarko Street, Muktinath Temple",17311,Very Good
+Sherpa Supper,"Nepali, Italian, Japanese",27.76262689504714,85.35399607025275,3,4.3,4.2,Kathmandu,1,"187, Pulchowk Bypass, Langtang Valley",16369,Very Good
+Summit Sizzle,"Nepali, Italian",27.725083211423144,85.40072249650783,2,4.2,4.3,Kathmandu,1,"172, Naxal Road, Annapurna Base Camp",10131,Good
+Koi Fusion,"Nepali, Mexican, Italian",27.553685086339804,85.31943019750199,3,3.1,4.0,Kathmandu,1,"140, Kamaladi Marg, Pokhara International Mountain Museum",10507,Excellent
+Koi Fusion,"Nepali, American",27.54175314801822,85.21961577629665,2,3.7,3.8,Kathmandu,1,"140, Bhaktapur Thimi Road, Muktinath Temple",10124,Very Good
+Yakitori Zen,"Nepali, Mexican",27.67244115085892,85.29925891193807,2,3.7,4.0,Kathmandu,1,"188, Durbar Marg, Chitwan National Park",13461,Good
+Dragon's Den,"Nepali, Mexican",27.696294306081093,85.35810257141043,2,4.7,5.0,Kathmandu,1,"166, Kamaladi Marg, Rani Mahal",13980,Average
+Everest Flavors,"Nepali, American, Chinese",27.642348979576596,85.2049600523507,3,4.1,3.6,Kathmandu,1,"186, Teku Road, Jamacho Viewpoint",18062,Average
+Taj Tiffin,"Nepali, Mexican",27.77519527361095,85.47571572930227,2,4.6,4.9,Kathmandu,1,"104, Budhanilkantha Road, Pokhara International Mountain Museum",11875,Very Good
+Everest Flavors,"Nepali, Chinese, Japanese, Mexican",27.547354003772597,85.20895426788343,4,4.1,3.6,Kathmandu,1,"117, Gairidhara Road, Everest Base Camp",19354,Excellent
+Zenith Zest,"Nepali, Nepalese, American, Mexican",27.738127773352566,85.44637822511628,4,4.1,4.8,Kathmandu,1,"111, Koteshwor Bypass, Godavari Botanical Garden",16552,Excellent
+Buddha Bowl,"Nepali, Italian, American",27.723005971621102,85.31678304203905,3,3.1,4.3,Kathmandu,1,"162, Gairidhara Road, Hanuman Dhoka",18488,Good
+Lotus Blossom,"Nepali, American, Japanese",27.709606470715027,85.43057377272494,3,3.7,3.7,Kathmandu,1,"110, Koteshwor Bypass, Khumbu Icefall",14725,Excellent
+Monsoon Feast,"Nepali, Japanese, Italian",27.788131813890086,85.38452617918676,3,3.3,4.5,Kathmandu,1,"131, New Baneshwor Chowk, Muktinath Temple",14069,Excellent
+Summit Sizzle,"Nepali, Mexican, Nepalese, Italian",27.666593281000292,85.46387365856332,4,4.2,3.9,Kathmandu,1,"104, Budhanilkantha Road, Chandragiri Hills",11726,Very Good
+Kathmandu Kitchens,"Nepali, Chinese",27.717035879431894,85.42870421292149,2,3.6,3.6,Kathmandu,1,"170, Koteswor Chowk, Swoyambhunath Stupa",14057,Very Good
+Gorkha Grill,"Nepali, Italian",27.698233731134447,85.31209194295297,2,3.5,5.0,Kathmandu,1,"137, New Baneshwor Chowk, Rara Lake",18189,Good
+Lotus Lounge,"Nepali, Italian, American",27.524108804333018,85.26561693062509,3,3.3,4.2,Kathmandu,1,"198, New Baneshwor Chowk, Phewa Lake",14645,Excellent
+Gurkha Grub,"Nepali, Chinese",27.5106305083618,85.38522256868549,2,3.8,3.6,Kathmandu,1,"195, Gaushala Road, Hanuman Dhoka",12898,Good
+Bamboo Bites,"Nepali, Italian",27.628376231480907,85.35597090387412,2,3.1,4.3,Kathmandu,1,"171, Koteshwor Bypass, Sarangkot Hill",17313,Excellent
+Everest Eats,"Nepali, Chinese, Mexican, Japanese",27.69654995806256,85.46412761861762,4,4.0,3.6,Kathmandu,1,"185, Bhaktapur Thimi Road, Kakani Strawberry Farm",16959,Very Good
+Himalayan Delight,"Nepali, Chinese, Japanese,pizza",27.773307174210732,85.45608806206008,3,3.7,4.7,Kathmandu,1,"190, Chabahil Chowk, Manaslu Mountain Range",17623,Average

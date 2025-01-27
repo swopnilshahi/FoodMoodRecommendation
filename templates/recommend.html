@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        nav {
+            background-color: #161616;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .recommendation-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: calc(100vh - 100px);
+        }
+
+        .recommendation {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+            text-align: left;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .restaurant-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .restaurant-rating {
+            font-size: 16px;
+            color: #4CAF50;
+            margin-bottom: 5px;
+        }
+
+        .restaurant-address {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .restaurant-distance {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #161616;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <div class="navbar-right">
+            <a class="logout" href="/logout">Logout</a>
+        </div>
+    </nav>
+
+    <div class="recommendation-container">
+        <div>
+            <h1>Food and Restaurant Recommender Based On Mood🍕 🍔 🍟</h1>
+            <div class="user-location" id="user-location"></div>
+            <div class="column">
+                {% for restaurant in recommended_restaurants %}
+                <div class="recommendation">
+                    <p class="restaurant-name">Restaurant Name: {{ restaurant['Restaurant Name'] }}</p>
+                    <p class="restaurant-rating">Rating: {{ restaurant['Aggregate Rating'] }}</p>
+                    <p class="restaurant-address">Address: {{ restaurant['Address'] }}</p>
+                    <p class="restaurant-distance">Distance: {{ '{:.2f}'.format(restaurant['Distance']) }} meters</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% if silhouette_avg is defined %}
+            <p>Silhouette Score: {{ silhouette_avg }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2024 Food and Restaurant Recommender Based On Mood. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    function getUserLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function (position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    fetchLocation(latitude, longitude);
+                },
+                function (error) {
+                    console.error('Error getting user location:', error);
+                    const manualLocation = prompt('Please enter your location:');
+                    if (manualLocation) {
+                        fetchLocationFromAddress(manualLocation);
+                    } else {
+                        alert('Unable to determine your location. Please enter it manually.');
+                    }
+                }
+            );
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+
+    function fetchLocation(latitude, longitude) {
+        fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`)
+            .then(response => response.json())
+            .then(data => {
+                const address = data.display_name;
+                document.getElementById('user-location').innerText = "Your Location: " + address;
+            })
+            .catch(error => {
+                console.error('Error fetching address:', error);
+            });
+    }
+
+    function fetchLocationFromAddress(address) {
+        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${address}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.length > 0) {
+                    const latitude = data[0].lat;
+                    const longitude = data[0].lon;
+                    fetchLocation(latitude, longitude);
+                } else {
+                    alert('Location not found. Please enter a valid address.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching coordinates:', error);
+            });
+    }
+
+    window.onload = getUserLocation;
+</script>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Restaurant Recommender Based On Mood 🍕 🍔 🍟</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        nav {
+            background-color: #161616;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-right a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .navbar-right a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container Styles */
+        .container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: calc(100vh - 100px);
+            /* Adjusted for nav height */
+        }
+
+        .card {
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            text-decoration: underline;
+        }
+
+        .card h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .card:hover h1 {
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 600px) {
+            .card {
+                width: 250px;
+            }
+
+            .card h1 {
+                font-size: 20px;
+            }
+        }
+
+
+        footer {
+            background-color: #161616;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <div class="navbar-right">
+            <a class="logout" href="/logout">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 20px;">Food and Restaurant Recommender Based On Mood 🍕 🍔 🍟</h1>
+        <p style="text-align: center;">Here are some food recommendations based on your mood: "{{ mood }}"</p>
+        <div class="card-deck" style="display: flex; flex-wrap: wrap; justify-content: center;">
+            {% for food in comfort_foods %}
+            <div class="card" onclick="selectFood('{{ food }}')">
+                <h1>{{ food }}</h1>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Food and Restaurant Recommender Based On Mood. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function selectFood(food) {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    window.location.href = "/recommend?food=" + encodeURIComponent(food) + "&latitude=" + latitude + "&longitude=" + longitude;
+                });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+    </script>
+</body>
+
+</html>

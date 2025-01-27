@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Restaurant Recommender Based On Mood🍕 🍔 🍟</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        nav {
+            background-color: #161616;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .moodfood {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: calc(100vh - 100px);
+        }
+
+        .card-deck {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 15px;
+            cursor: pointer;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            margin: 10px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+
+        footer {
+            background-color: #161616;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .flash-success {
+            color: green;
+        }
+
+        .flash-error {
+            color: red;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .card {
+                width: 120px;
+            }
+
+            .card h1 {
+                font-size: 36px;
+            }
+
+            .card h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <div class="navbar-right">
+            <a class="logout" href="/logout">Logout</a>
+        </div>
+    </nav>
+
+    <div class="moodfood">
+        <h1>Mood Based Food and Restaurant Recommender 🍕 🍔 🍟</h1>
+    </div>
+
+
+    <div class="container">
+        <h2>Please Select Your Current Mood</h2>
+        <div class="card-deck">
+            <div class="card" onclick="find('happy')">
+                <h1>😀</h1>
+                <h2>Happy</h2>
+            </div>
+            <div class="card" onclick="find('laziness')">
+                <h1>😴</h1>
+                <h2>Laziness</h2>
+            </div>
+            <div class="card" onclick="find('sad')">
+                <h1>😔</h1>
+                <h2>Sad</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card" onclick="find('depression')">
+                <h1>😞</h1>
+                <h2>Depression</h2>
+            </div>
+            <div class="card" onclick="find('cold')">
+                <h1>❄️</h1>
+                <h2>Cold Weather</h2>
+            </div>
+            <div class="card" onclick="find('boredom')">
+                <h1>🤔</h1>
+                <h2>Boredom</h2>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card" onclick="find('stress')">
+                <h1>😵</h1>
+                <h2>Stress</h2>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Food and Restaurant Recommender Based On Mood. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function find(val) {
+            window.location.href = "/find?mood=" + val;
+        }
+    </script>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="flash-{{ category }}">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+</body>
+
+</html>

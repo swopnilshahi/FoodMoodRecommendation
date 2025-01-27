@@ -1,0 +1,117 @@
+Comfort Food,Comfort Food Reason,Comfort Food Reason Coded,Rating,Favorite Food,Favorite Cuisine
+Pizza,Feeling happy,happy,4.9,Pizza,Chinese
+Ice Cream,Feeling happy,happy,3.8,Ice Cream,Japanese
+Burger,Feeling happy,happy,3.5,Burger,Chinese
+Chocolate Cake,Feeling happy,happy,4.6,Chocolate Cake,American
+Pasta,Feeling happy,happy,4.3,Pasta,American
+Sushi,Feeling happy,happy,3.9,Sushi,Italian
+Momos,Feeling happy,happy,3.6,Momos,Chinese
+Dal Bhat,Feeling happy,happy,3.7,Dal Bhat,Japanese
+Gundruk,Feeling happy,happy,3.3,Gundruk,Nepalese
+Thukpa,Feeling happy,happy,3.3,Thukpa,American
+Yomari,Feeling happy,happy,4.3,Yomari,Mexican
+Sel Roti,Feeling happy,happy,3.7,Sel Roti,Italian
+Sekuwa,Feeling happy,happy,4.7,Sekuwa,Japanese
+Kwati,Feeling happy,happy,3.1,Kwati,Nepalese
+Bara,Feeling happy,happy,3.9,Bara,Japanese
+Sel Roti,Feeling sad,sad,4.4,Sel Roti,Japanese
+Ice Cream,Feeling sad,sad,4.6,Ice Cream,Japanese
+Chocolate,Feeling sad,sad,4.7,Chocolate,Chinese
+Cookies,Feeling sad,sad,3.6,Cookies,Mexican
+Macaroni and Cheese,Feeling sad,sad,3.8,Macaroni and Cheese,Italian
+Pizza,Feeling sad,sad,4.7,Pizza,Chinese
+Chatamari,Feeling sad,sad,3.2,Chatamari,American
+Sukuti,Feeling sad,sad,3.5,Sukuti,American
+Aalu Chop,Feeling sad,sad,4.7,Aalu Chop,American
+Sel Roti,Feeling sad,sad,4.1,Sel Roti,Japanese
+Kheer,Feeling sad,sad,3.3,Kheer,Italian
+Yogurt,Feeling sad,sad,3.9,Yogurt,Chinese
+Fast Food,Feeling laziness,laziness,4.1,Fast Food,Nepalese
+Frozen Meals,Feeling laziness,laziness,4.5,Frozen Meals,Chinese
+Takeout,Feeling laziness,laziness,3.2,Takeout,Chinese
+Pizza,Feeling laziness,laziness,4.4,Pizza,Japanese
+Burgers,Feeling laziness,laziness,4.9,Burgers,Chinese
+Fries,Feeling laziness,laziness,3.9,Fries,Italian
+Chatpate,Feeling laziness,laziness,4.3,Chatpate,Japanese
+Pakora,Feeling laziness,laziness,3.0,Pakora,Italian
+Chowmein,Feeling laziness,laziness,3.9,Chowmein,Chinese
+Samosa,Feeling laziness,laziness,4.4,Samosa,Chinese
+Puri,Feeling laziness,laziness,4.0,Puri,Chinese
+Jalebi,Feeling laziness,laziness,3.6,Jalebi,Japanese
+Gundruk,Feeling laziness,laziness,3.9,Gundruk,Nepalese
+Thukpa,Feeling laziness,laziness,4.8,Thukpa,American
+Thukpa,Feeling depression,depression,4.0,Thukpa,Chinese
+Cake,Feeling depression,depression,4.2,Cake,American
+Burgers,Feeling depression,depression,3.3,Burgers,Nepalese
+Dal Bhat,Feeling depression,depression,3.2,Dal Bhat,Mexican
+Gundruk,Feeling depression,depression,3.3,Gundruk,Chinese
+Kwati,Feeling depression,depression,4.4,Kwati,American
+Chatamari,Feeling depression,depression,3.1,Chatamari,Italian
+Sukuti,Feeling depression,depression,4.1,Sukuti,American
+Aalu Chop,Feeling depression,depression,4.3,Aalu Chop,Nepalese
+Kheer,Feeling depression,depression,3.2,Kheer,Japanese
+Burger,Feeling hungry,hungry,4.1,Burger,Mexican
+Pizza,Feeling hungry,hungry,3.2,Pizza,American
+Tacos,Feeling hungry,hungry,4.6,Tacos,Italian
+Noodles,Feeling hungry,hungry,4.6,Noodles,Japanese
+Steak,Feeling hungry,hungry,4.3,Steak,Mexican
+Sushi,Feeling hungry,hungry,3.2,Sushi,Japanese
+Momo,Feeling hungry,hungry,3.9,Momo,Japanese
+Chowmein,Feeling hungry,hungry,3.9,Chowmein,Mexican
+Bara,Feeling hungry,hungry,3.0,Bara,Nepalese
+Sekuwa,Feeling hungry,hungry,3.1,Sekuwa,American
+Yomari,Feeling hungry,hungry,4.7,Yomari,Italian
+Thukpa,Feeling hungry,hungry,4.9,Thukpa,Italian
+Kwati,Feeling hungry,hungry,4.3,Kwati,American
+Aalu Chop,Feeling hungry,hungry,3.6,Aalu Chop,Japanese
+Snacks,Feeling boredom,boredom,4.5,Snacks,Chinese
+Pizza,Feeling boredom,boredom,3.6,Pizza,Nepalese
+Burger,Feeling boredom,boredom,3.6,Burger,Nepalese
+Ice Cream,Feeling boredom,boredom,4.8,Ice Cream,Japanese
+Donuts,Feeling boredom,boredom,3.3,Donuts,Mexican
+Nachos,Feeling boredom,boredom,3.7,Nachos,Nepalese
+Chatpate,Feeling boredom,boredom,3.3,Chatpate,Italian
+Pakora,Feeling boredom,boredom,3.4,Pakora,Japanese
+Samosa,Feeling boredom,boredom,3.7,Samosa,Italian
+Puri,Feeling boredom,boredom,3.7,Puri,American
+Jalebi,Feeling boredom,boredom,3.1,Jalebi,American
+Sel Roti,Feeling boredom,boredom,4.5,Sel Roti,Mexican
+Kheer,Feeling boredom,boredom,4.7,Kheer,Mexican
+Sushi,Feeling stress,stress,4.8,Sushi,Japanese
+Chocolate,Feeling stress,stress,5.0,Chocolate,American
+Ice Cream,Feeling stress,stress,3.9,Ice Cream,Nepalese
+Pasta,Feeling stress,stress,4.6,Pasta,Italian
+Noodles,Feeling stress,stress,3.6,Noodles,Mexican
+Burgers,Feeling stress,stress,4.0,Burgers,Chinese
+Momos,Feeling stress,stress,4.0,Momos,Japanese
+Chowmein,Feeling stress,stress,4.9,Chowmein,Nepalese
+Dal Bhat,Feeling stress,stress,4.5,Dal Bhat,American
+Gundruk,Feeling stress,stress,5.0,Gundruk,Italian
+Kwati,Feeling stress,stress,3.0,Kwati,Chinese
+Sekuwa,Feeling stress,stress,4.1,Sekuwa,American
+Chatamari,Feeling stress,stress,4.7,Chatamari,Italian
+Sukuti,Feeling stress,stress,4.4,Sukuti,Japanese
+Soup,Feeling cold weather,cold weather,3.3,Soup,American
+Hot Chocolate,Feeling cold weather,cold weather,3.4,Hot Chocolate,American
+Stews,Feeling cold weather,cold weather,4.6,Stews,Italian
+Chili,Feeling cold weather,cold weather,4.1,Chili,American
+Grilled Cheese,Feeling cold weather,cold weather,4.1,Grilled Cheese,Mexican
+Thukpa,Feeling cold weather,cold weather,4.2,Thukpa,Italian
+Kwati,Feeling cold weather,cold weather,3.8,Kwati,American
+Sel Roti,Feeling cold weather,cold weather,3.7,Sel Roti,American
+Chatamari,Feeling cold weather,cold weather,3.3,Chatamari,Mexican
+Sukuti,Feeling cold weather,cold weather,3.2,Sukuti,Japanese
+Yomari,Feeling cold weather,cold weather,3.6,Yomari,Mexican
+Popcorn,Feeling watching tv,watching tv,4.8,Popcorn,Mexican
+Chips,Feeling watching tv,watching tv,3.6,Chips,Chinese
+Nachos,Feeling watching tv,watching tv,3.4,Nachos,Mexican
+Pizza,Feeling watching tv,watching tv,3.2,Pizza,Mexican
+Ice Cream,Feeling watching tv,watching tv,4.9,Ice Cream,Nepalese
+Soda,Feeling watching tv,watching tv,4.8,Soda,Italian
+Chatpate,Feeling watching tv,watching tv,5.0,Chatpate,Mexican
+Pakora,Feeling watching tv,watching tv,4.3,Pakora,Italian
+Samosa,Feeling watching tv,watching tv,3.9,Samosa,Italian
+Puri,Feeling watching tv,watching tv,4.7,Puri,Chinese
+Jalebi,Feeling watching tv,watching tv,3.3,Jalebi,Mexican
+Yogurt,Feeling watching tv,watching tv,3.7,Yogurt,Japanese
+Kheer,Feeling watching tv,watching tv,3.4,Kheer,Chinese
