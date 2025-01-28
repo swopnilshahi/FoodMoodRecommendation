@@ -11,7 +11,7 @@ env/Scripts/activate
 #install package from requirement.txt
 pip install -r requirement.txt
 
-#dowload dataset
+#download dataset
 python -m nltk.downloader popular
 #check
 pip list
